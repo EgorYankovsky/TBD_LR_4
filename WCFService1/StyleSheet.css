@@ -2,3 +2,8 @@
     height: 300px;
     background-color:brown;
 }
+
+.form-label {
+    margin-bottom: 0.5rem;
+    display: block;
+}

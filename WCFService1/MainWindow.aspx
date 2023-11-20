@@ -5,16 +5,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link rel ="stylesheet" href="StyleSheet.css"/>
-    <title>MainPage</title>
+    <title></title>
 </head>
 <body>
-    <form id="form2" runat="server">
-        <div class="MainText">
-            <p>Что </p>
-            <p>Никого</p>
-            <input type="text" name="result" placeholder="Сюда выводится результат"/>
-            <asp:Button runat="server" Text="Button"></asp:Button>
+    <form id="form1" runat="server">
+        <p>Какой запрос вы хотите выполнить?</p>
+        <p>1: Получить информацию о последней цене деталей, которые были поставлены для указанного изделия.</p>
+        <p>2: Вставить заказ с указанными параметрами. </p>
+        <div>
+            <asp:Button runat="server" Text="Запрос 1"></asp:Button>
+            <asp:Button runat="server" Text="Запрос 2"></asp:Button>
         </div>
     </form>
 </body>
